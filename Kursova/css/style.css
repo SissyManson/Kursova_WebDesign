@@ -1,0 +1,132 @@
+/*		FOR ALL 	*/
+.header{
+	height: 50vh;
+}
+h2{
+	color: #000;
+	padding: 30px;
+	font-size: 23pt;
+	font-style: italic;
+	text-shadow: 7px 7px 5px #888;
+}
+/*	BACKGROUND color to all main sections	*/
+
+#contactInfo,#info,#forUs,#ind-inf{
+	padding: 10px;
+	background-color: rgba(255,255,255,0.7);
+	color: #000;
+	border-radius: 20px;
+}
+
+#forUs p, #info p, #ind-inf p{
+	font-size: 16pt;
+	text-indent: 2em;
+	line-height: 1.4;
+	margin: 10px 30px;
+	text-align: justify;
+	color: black;
+	text-align: left;
+}
+
+
+/*	INDEX.html	*/
+
+.mainS #ind-inf article{
+	padding: 0 30px;
+}
+#ind-vid{
+	margin: 40px 20px;
+}
+
+
+
+/*	INFO.html	*/
+
+#info{
+	padding: 30px;
+
+}
+#predimstva ul li{
+	list-style-type: square;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+#info ul, #info ol{
+	padding: 0 50px;
+	font-size: 14pt;
+}
+#b,#c,#d,#e{margin: 10px;}
+ul.b li{list-style-type: disc;}
+ol#c li{list-style-type: upper-roman;}
+ul#d li{list-style-type: circle;}
+ol#e li{list-style-type: lower-alpha;}
+
+
+/*	CONTACTS.html	*/
+
+address{
+	padding: 0 30px;
+	font-size: 110%;
+	position: relative;
+	left: 30px;
+}
+label{
+	font-size: 20px;
+	margin:5px;
+	font-weight: bold;
+	font-style: italic;
+}
+input, textarea{
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #fff;
+	color: #000;
+	padding: 5px;
+	border: none;
+	resize: none;
+	width: 60%;
+}
+#btnSend{
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: rgba(0, 0, 0 ,0.3);
+	color: white;
+	padding: 5px 15px;
+}
+#btnSend:hover{
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	background-color: rgba(0, 0, 0 ,0.6);
+	font-weight: bold;
+	font-style: italic;
+}
+#findUs,#form{
+	display: inline-block;
+	width: 45%;
+	vertical-align: text-top;
+}
+#form{
+	padding-left: 50px;
+	margin-top: 40px;
+}
+#findUs div i{
+	display: inline-block;
+	margin: 10px;
+	padding: 15px;
+	border: 2px solid #000;
+	border-radius: 50%;
+	position: relative;
+	left: 50px;
+}
+#findUs div i:hover{
+	font-size: 130%;
+	color: rgba(10,10,10,0.6);
+	border-color: rgba(0,0,0,0.6);
+}
+iframe#map{
+	margin: 30px;
+	width: 90%;
+	height: 400px;
+}

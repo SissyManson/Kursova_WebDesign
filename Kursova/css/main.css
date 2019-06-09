@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: inherit;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(../pics/hh.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Noto Serif TC', serif;
+	color: #fff;
+}
+img{
+	max-width: 100%;
+}
+
+
+main{
+	max-width: 100%;
+	padding: 30px 10px;
+}
+.main-nav{
+	float: left;
+	width: 20%;
+	padding: 15px;
+}
+.mainS{
+	float: left;
+	width: 50%;
+	padding: 15px;
+	margin: 0 40px;
+}
+.aside{
+	float: left;
+	width: 25%;
+	padding: 15px;
+	margin-top: 10px;
+ }
+main::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+header#ind{
+	height: 100vh;
+}
+.header {
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-shadow: 10px 15px 10px #000;
+	background-image: url(../pics/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+.header h1{
+	padding-top: 15vh;
+	padding-bottom: 20px;
+	font-size: 8vw;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.header h2{
+	font-size: 1.5vw;
+	font-style: italic;
+	color: white;
+	letter-spacing: 3px;
+	text-shadow: 10px 10px 10px #000;
+	text-align: center;
+}
+.menu li{
+	font-size: 18pt;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.3);
+	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.menu li a{
+	
+}
+.menu ul li.active{
+	background-color: rgba(255,255,255,0.9);
+	color: #000;
+	font-style: italic;
+}
+.menu li:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: #000;
+	font-style: italic;
+	transition: 0.8s;
+}
+.menu li:active{
+	color: #000;
+	font-weight: bold;
+}
+
+.aside {
+	padding: 0 15px 15px 30px;
+	background-color: rgba(255,255,255,0.8);
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.aside article{
+	margin: 20px 10px;
+}
+.aside article h2{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20pt;
+	color: rgb(0,0,0);
+	text-shadow: 7px 7px 5px #888;
+}
+.aside article p{
+	font-weight: bold;
+	font-size: 14pt;
+	color: rgba(0,0,0,0.8);
+	padding: 0 10px;
+}
+.aside article#quote span{
+	font-style: italic;
+}
+.main-foot {
+	background-color: rgba(255,255,255,0.5);
+	color: #000;
+	text-align: center;
+	font-size: 13px;
+	padding: 20px;
+}
+.main-foot a{
+	text-decoration: underline;
+
+}
+.main-foot a:hover{
+	font-style: italic;
+	font-weight: bold;
+}

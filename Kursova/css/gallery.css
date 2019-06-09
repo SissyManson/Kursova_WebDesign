@@ -1,0 +1,35 @@
+#sec-gallery{
+  padding: 10px;
+  background-color: rgba(255,255,255,0.4);
+  color: #000;
+  border-radius: 20px;
+}
+#sec-gallery article div{
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+#sec-gallery h2{
+  padding: 30px;
+  font-size: 26pt;
+  font-style: italic;
+}
+.img-gal{
+  width: 100%;
+  vertical-align: top;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+.lft{
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.rgt{
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+}
+#video{
+  text-align: center;
+  margin-bottom: 50px;
+}
